@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import StateTutorial1 from "./UseState/StateTutorial1"
+import StateTutorial2 from "./UseState/StateTutorial2"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StateTutorial1 />
+      <StateTutorial2 />
     </div>
   );
 }
